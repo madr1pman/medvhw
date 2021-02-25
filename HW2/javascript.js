@@ -17,8 +17,7 @@ sred /= n;
 
 function term_max(){   
     var max = 0;
-    for(i in term)
-    {
+    for(i in term){
        if(max < term[i])
        {
           max = term[i]
